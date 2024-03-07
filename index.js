@@ -6,7 +6,7 @@ loginButton.onclick = function(){
     let password = document.getElementById("password").value;
 
     if(username === "admin" && password === "admin"){
-        h2.textContent = "You are logged in";
+         window.location.href = 'https://mateuszgajdowicz.github.io/UserPage/'
     } else {
         h2.textContent = "Invalid username or password";
     }
