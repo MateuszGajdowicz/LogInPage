@@ -10,4 +10,4 @@ loginButton.onclick = function(){
     } else {
         h2.textContent = "Invalid username or password";
     }
-};
+}
