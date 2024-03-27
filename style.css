@@ -27,7 +27,7 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
 }
-button {
+#loginButton {
     --b: 3px;   /* border thickness */
     --s: .15em; /* size of the corner */
     --c: fff;
@@ -44,13 +44,13 @@ button {
     border: none;
     margin: .1em;
 }
-button:hover,
-button:focus-visible {
+#loginButton:hover,
+#loginButton:focus-visible {
     --_p: 0px;
     outline-color: var(--c);
     outline-offset: .05em;
 }
-button:active {
+#loginButton:active {
     background: var(--c);
     color: #fff;
 }

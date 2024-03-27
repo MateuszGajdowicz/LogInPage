@@ -1,5 +1,6 @@
 let h2 = document.getElementById("h2");
 let loginButton = document.getElementById("loginButton");
+let username = document.getElementById("username").value;
 
 loginButton.onclick = function(){
     let username = document.getElementById("username").value;
@@ -12,3 +13,4 @@ loginButton.onclick = function(){
         h2.textContent = "Invalid username or password";
     }
 }
+
